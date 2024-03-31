@@ -11,6 +11,7 @@ import android.widget.TextView
 
 private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
+private const val INITIAL_BASE_AMOUNT = 0
 
 class MainActivity : AppCompatActivity() {
     private lateinit var etBaseAmount: EditText
@@ -18,6 +19,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvTipPercentLabel: TextView
     private lateinit var tvTipAmount: TextView
     private lateinit var tvTotalAmount: TextView
+
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
